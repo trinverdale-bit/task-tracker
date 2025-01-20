@@ -11,7 +11,7 @@ var command = os.Args[1]
 var argument string
 
 func help() {
-	fmt.Println("Usage: ./main <command> [<argument>]")
+	fmt.Println("Usage: ./task-tracker <command> [<argument>]")
 	fmt.Println()
 	fmt.Println("Available commands:")
 	fmt.Println("  add <description>            Add a new task with a description")
