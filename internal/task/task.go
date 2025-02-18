@@ -2,8 +2,8 @@ package task
 
 import (
 	"fmt"
-	"time"
 	"strconv"
+	"time"
 )
 
 type Task struct {
@@ -59,6 +59,7 @@ func UpdateTask(tasks []Task, idStr, newDescription string) []Task {
 	}
 
 	fmt.Println("Task not found.")
+
 	return tasks
 }
 
